@@ -16,6 +16,7 @@
 
 #search-teachers .input-block {
     position: relative;
+    padding: 1rem;;
 }
 
 #search-teachers .input-block + .input-block {
