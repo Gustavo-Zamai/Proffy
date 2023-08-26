@@ -1,10 +1,10 @@
 import React from "react";
 import {Link} from 'react-router-dom'
-import logoImg from "../../images/logo.svg";
-import landingImg from "../../images/landing.svg";
-import studyIcon from "../../images/icons/study.svg";
-import giveClassesIcon from "../../images/icons/give-classes.svg"
-import connectionIcon from "../../images/icons/purple-heart.svg"
+import logoImg from "../../assets/images/logo.svg";
+import landingImg from "../../assets/images/landing.svg";
+import studyIcon from "../../assets/images/icons/study.svg";
+import giveClassesIcon from "../../assets/images/icons/give-classes.svg"
+import connectionIcon from "../../assets/images/icons/purple-heart.svg"
 import "./styles.css";
 
 function Landing() {
