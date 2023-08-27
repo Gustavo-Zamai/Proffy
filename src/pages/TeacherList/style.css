@@ -1,6 +1,8 @@
 #page-teacher-list {
     width: 100vw;
     height: 100vh;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 
@@ -16,7 +18,7 @@
 
 #search-teachers .input-block {
     position: relative;
-    padding: 1rem;;
+    padding: 1rem 1.8rem;
 }
 
 #search-teachers .input-block + .input-block {
@@ -24,7 +26,7 @@
 }
 
 #search-teachers .input-block:last-child{
-    padding-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 
 #search-teachers .input-block label {
@@ -52,7 +54,7 @@
     height: 2px;
     content: '';
     background: var(--color-primary-light);
-    border: 1px solid black;
+    border: 1px solid var(--color-input-border-black);
     position: absolute;
     left: 1.6rem;
     right: 1.6rem;
@@ -75,7 +77,7 @@
         grid-template-columns: repeat(3, 1fr);
         column-gap: 16px;
         position: absolute;
-        left: 10.5%;
+        left: 6.5%;
         top: 32%
     }
 
@@ -84,7 +86,7 @@
     } 
 
     #search-teachers .input-block:last-child{
-        padding-bottom: 0rem;
+        margin-bottom: 0rem;
     }
 
     #search-teachers {
@@ -99,16 +101,7 @@
     }
 
 }
-    @media (min-width: 1080px) {
-    #page-teacher-list {
-        max-width: 100vw;
-    }
 
-    #search-teachers {
-        left: 13.5%;
-        top: 32%
-    }
-}
 
     @media (min-width: 1080px) {
     #page-teacher-list {
@@ -116,7 +109,7 @@
     }
 
     #search-teachers {
-        left: 25.9%;
+        left: 12.9%;
         top: 32%
     }
 }
@@ -127,7 +120,29 @@
     }
 
     #search-teachers {
-        left: 29%;
+        left: 18%;
+        top: 32%
+    }
+}
+
+    @media (min-width: 1580px) {
+    #page-teacher-list {
+        max-width: 100vw;
+    }
+
+    #search-teachers {
+        left: 23%;
+        top: 32%
+    }
+}
+
+    @media (min-width: 1800px) {
+    #page-teacher-list {
+        max-width: 100vw;
+    }
+
+    #search-teachers {
+        left: 28%;
         top: 32%
     }
 }
